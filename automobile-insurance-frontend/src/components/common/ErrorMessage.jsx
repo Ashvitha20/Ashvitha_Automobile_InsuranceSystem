@@ -1,0 +1,8 @@
+import "../../styles/Common.css";
+
+function ErrorMessage({ message }) {
+    if (!message) return null;
+    return <div className="error-banner">{message}</div>;
+}
+
+export default ErrorMessage;
